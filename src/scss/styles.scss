@@ -1,3 +1,8 @@
-body {
-    background-color: green;
-}
+
+// Base
+@import "base/_vars";
+@import "base/_globals";
+@import "base/_mixins";
+
+// Modules
+@import "modules/_site-header";

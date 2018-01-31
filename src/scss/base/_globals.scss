@@ -1,0 +1,31 @@
+html {
+    // box model
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    // box model
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    // typography
+    font-family: $OpenSans;
+    font-size: 16px;
+
+    // visual
+    overflow-x:h hidden;
+    background-image: url("./img/bg.png");
+    background-repeat: no-repeat;
+
+}
+
+* {
+    // box model
+    box-sizing: border-box;
+    
+
+    // typography
+    font-family: inherit;
+}

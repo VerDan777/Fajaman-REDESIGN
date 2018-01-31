@@ -1,0 +1,12 @@
+.site-header {
+    position: relative;
+    background-image: url("./img/header_bg.png");
+    height: 100vh;
+    background-size: cover;
+
+    &__mock {
+        position: absolute;
+        bottom: 34px;
+        @include centerer-x;
+    }
+}

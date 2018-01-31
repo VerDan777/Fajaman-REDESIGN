@@ -4,7 +4,60 @@ html(lang="en")
         meta(charset="UTF-8")
         meta(name="viewport", content="width=device-width, initial-scale=1.0")
         meta(http-equiv="X-UA-Compatible", content="ie=edge")
+        link(href="https://fonts.googleapis.com/css?family=Oswald:200&amp;subset=cyrillic" rel="stylesheet")
         link(rel="stylesheet", href="styles.css")
         title Fajaman
     body
-    h1 Faja
+        header.site-header
+            nav.main-nav
+                .logo
+                    p.logo__name Богдан Янкевич
+                    p.logo__proffessional Личностный рост. Коучинг
+                nav.main-menu
+                    ul.main-menu__list
+                        li.main-menu__list: a(href="#index") Главная
+                        li.main-menu__list: a(href="#index") Занятия
+                        li.main-menu__list: a(href="#index") О коуче
+                        li.main-menu__list: a(href="#index") Отзывы
+                        li.main-menu__list: a(href="#index") Контакты
+
+                a.button.button--online-record(href="#") Online запись
+
+                .menu-icon: .menu-icon__middle
+            
+            section.hero
+                header.hero__header
+                    h1.hero__title Персональный тренер по личностному росту
+                    p.hero__text По статистике большинство людей сталкиваясь в своей жизни с трудностями, хотят решать их самостоятельно, но порой они даже и не знают, как правильно планировать свою жизнь, как самостоятельно реализовывать поставленные цели, и как контролировать свои эмоции.
+                    a.button.button--consult(href="#") Записаться на консультацию
+
+                .hero__content
+                    ul.hero__list
+                        li.hero__item
+                            p.hero__feature-title Личностный рост
+                            p.hero__feature-text Вы хотите научиться самостоятельно решать свои проблемы?
+                        li.hero__item
+                            p.hero__feature-title Коучинг 
+                            p.hero__feature-text Как правильно планировать свою жизнь, как самостоятельно реализовывать поставленные цели?
+
+            .site-header__mock: img(src="./img/mock.png" alt="mock")
+
+        section.section.problems
+            header.problems__header
+                sup.problems__quote “Здравствуйте, я хочу изменить свою жизнь”
+                p.problems__title Какие проблемыя помогу вам решить
+
+            .problems__content
+                ul.problems__upper-list
+                    li.problems__upper-item
+                        p.problems__upper-title Давай знакомиться
+                        p.problems__text Меня зовут Богдан и если Вы хотите научиться самостоятельно решать свои проблемы, то тогда пришло время нам с вами познакомиться.
+
+                    li.problems__upper-item
+                        p.problems__upper-title Направления работы:
+                        p.problems__text.problems__text--gold Проблемы с денежными тратами
+                        p.problems__text.problems__text--gold Творческий кризис
+                        p.problems__text.problems__text--gold Проблемы с организованностью
+                        p.problems__text.problems__text--gold Вредные привычки.
+                        
+                    
