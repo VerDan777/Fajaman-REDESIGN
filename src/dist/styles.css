@@ -1,3 +1,5 @@
+@charset "UTF-8";
+
 html {
   height: 100%;
   width: 100%;
@@ -238,4 +240,142 @@ body {
 .button--online-record:hover {
   background-color: #ffffff;
   color: #ac9455;
+}
+
+.problems {
+  padding: 50px 25px;
+}
+
+.problems__header {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 40px;
+}
+
+.problems__header::after {
+  content: "Проблемы?";
+  position: absolute;
+  top: -35px;
+  left: -40px;
+  font-size: 3rem;
+  color: #9c9c9c;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  opacity: 0.1;
+}
+
+.problems__quote {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 15px;
+  color: #ac9455;
+  font-size: 0.875rem;
+  line-height: 1.5rem;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+.problems__title {
+  margin: 0;
+  padding: 0;
+  color: #2b2b2b;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  line-height: 2rem;
+}
+
+.problems__content {
+  margin: 0;
+  padding: 0;
+}
+
+.problems__upper-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.problems__upper-item {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 40px;
+}
+
+.problems__upper-title {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 20px;
+  color: #2b2b2b;
+  font-size: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+}
+
+.problems__text {
+  margin: 0;
+  padding: 0;
+  color: #2b2b2b;
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+
+.problems__text--gold {
+  margin-bottom: 10px;
+  color: #ac9455;
+}
+
+.problems__feature-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.problems__feature-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0;
+  margin-bottom: 60px;
+}
+
+.problems__feature-item:last-child {
+  margin: 0;
+}
+
+.problems__feature-img {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.problems__feature-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  margin-left: 20px;
+}
+
+.problems__feature-title {
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 20px;
+  color: #2b2b2b;
+  font-size: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.problems__feature-text {
+  display: inline-block;
+  vertical-align: top;
+  margin: 0;
+  color: #898989;
+  line-height: 1.75rem;
 }
