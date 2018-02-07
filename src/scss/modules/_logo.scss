@@ -1,0 +1,62 @@
+.logo {
+    // box model
+
+    &__name {
+        // positioning
+        position: relative;
+
+        // box model
+        margin: 0;
+        padding: 0;
+
+        // visual
+        text-transform: uppercase;
+        letter-spacing: 4px;
+
+        // typography
+        // font-family: $mainFont;
+        color: $black;
+        font-weight: 600;
+    
+        // font-weight: 00; 
+        font-size: 0.75rem;
+
+        &::after {
+            content: "";
+            position: absolute;
+            bottom: -7px;
+            left: 0;
+            width: 60%;
+            height: 1px;
+            background-color: $accent;
+
+        }
+    }
+
+    &__proffessional {
+        // box model
+        margin: 0;
+        padding: 0;
+        padding-top: 15px;
+
+         // typography
+         color: $black;
+         font-family: $mainFont;
+         font-size: 0.55rem;
+ 
+         // visual
+         text-transform: uppercase;
+         letter-spacing: 3px;
+    }
+
+    span {
+        // typography
+        color: $accent;
+        font-family: $mainFont;
+        font-size: 0.55rem;
+
+        // visual
+        text-transform: uppercase;
+        letter-spacing: 3px;
+    }
+}

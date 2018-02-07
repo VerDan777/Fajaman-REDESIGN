@@ -1,0 +1,52 @@
+.hero {
+    // box model
+    margin: 0;
+    padding: 0;
+
+    &__header {
+        // box model
+        margin: 0;
+        padding: 0;
+        margin-bottom: 70px;
+    }
+
+    &__title {
+        // box model
+        margin: 0;
+        padding: 0;
+        margin-bottom: 30px;
+
+        // visual
+        
+
+        // typography
+        color: $accent;
+        font-size: 2.25rem;
+        font-weight: 200;
+        font-family: $mainFont;
+    }
+
+    &__text {
+        // box model
+        margin: 0;
+        padding: 0;
+        display: inline-block;
+        max-width: 226px;
+
+        // visual
+
+
+        // typography
+        color: $textColor;
+        font-size: 0.875rem;
+        line-height: 1.5rem;
+    }
+
+    &__button {
+        // box model
+        margin: 0;
+        padding: 0;
+        margin-bottom: 100px;
+
+    }
+}

@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-html(lang="en")
+html(lang="ru")
     head
-        meta(charset="UTF-8")
+        meta(charset="utf-8")
         meta(name="viewport", content="width=device-width, initial-scale=1.0")
         meta(http-equiv="X-UA-Compatible", content="ie=edge")
-        link(href="https://fonts.googleapis.com/css?family=Oswald:200&amp;subset=cyrillic" rel="stylesheet")
+        link(href="https://fonts.googleapis.com/css?family=Oswald:200,400" rel="stylesheet")
         link(rel="stylesheet", href="styles.css")
         title Fajaman
     body
@@ -12,16 +12,15 @@ html(lang="en")
             nav.main-nav
                 .logo
                     p.logo__name Богдан Янкевич
-                    p.logo__proffessional Личностный рост. Коучинг
+                    p.logo__proffessional Личностный рост. <span>Коучинг</span>
                 nav.main-menu
                     ul.main-menu__list
-                        li.main-menu__list: a(href="#index") Главная
-                        li.main-menu__list: a(href="#index") Занятия
-                        li.main-menu__list: a(href="#index") О коуче
-                        li.main-menu__list: a(href="#index") Отзывы
-                        li.main-menu__list: a(href="#index") Контакты
-
-                a.button.button--online-record(href="#") Online запись
+                        li: a(href="#index") Главная
+                        li: a(href="#index") Занятия
+                        li: a(href="#index") О коуче
+                        li: a(href="#index") Отзывы
+                        li: a(href="#index") Контакты
+                
 
                 .menu-icon: .menu-icon__middle
             
@@ -29,23 +28,27 @@ html(lang="en")
                 header.hero__header
                     h1.hero__title Персональный тренер по личностному росту
                     p.hero__text По статистике большинство людей сталкиваясь в своей жизни с трудностями, хотят решать их самостоятельно, но порой они даже и не знают, как правильно планировать свою жизнь, как самостоятельно реализовывать поставленные цели, и как контролировать свои эмоции.
-                    a.button.button--consult(href="#") Записаться на консультацию
+                    //- a.button.button--consult(href="#") Записаться на консультацию
 
-                .hero__content
-                    ul.hero__list
-                        li.hero__item
-                            p.hero__feature-title Личностный рост
-                            p.hero__feature-text Вы хотите научиться самостоятельно решать свои проблемы?
-                        li.hero__item
-                            p.hero__feature-title Коучинг 
-                            p.hero__feature-text Как правильно планировать свою жизнь, как самостоятельно реализовывать поставленные цели?
+                .hero__button
+                    a.button.button--online-record(href="#") Online запись
 
-            .site-header__mock: img(src="./img/mock.png" alt="mock")
+                //- .hero__content
+                //-     ul.hero__list
+                //-         li.hero__item
+                //-             p.hero__feature-title Личностный рост
+                //-             p.hero__feature-text Вы хотите научиться самостоятельно решать свои проблемы?
+                //-         li.hero__item
+                //-             p.hero__feature-title Коучинг 
+                //-             p.hero__feature-text Как правильно планировать свою жизнь, как самостоятельно реализовывать поставленные цели?
+
+
+            .site-header__mock: img(src="./img/mock.png" alt="Богдан Янкевич заглушка")
 
         section.section.problems
             header.problems__header
                 sup.problems__quote “Здравствуйте, я хочу изменить свою жизнь”
-                p.problems__title Какие проблемыя помогу вам решить
+                p.problems__title Какие проблемы я помогу вам решить
 
             .problems__content
                 ul.problems__upper-list
@@ -59,5 +62,6 @@ html(lang="en")
                         p.problems__text.problems__text--gold Творческий кризис
                         p.problems__text.problems__text--gold Проблемы с организованностью
                         p.problems__text.problems__text--gold Вредные привычки.
+        
                         
                     

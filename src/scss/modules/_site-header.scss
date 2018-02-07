@@ -1,12 +1,29 @@
 .site-header {
+    // positioning
     position: relative;
-    background-image: url("./img/header_bg.png");
-    height: 100vh;
+
+    // box model
+    padding: 35px 25px;
+    
+    // positioning
+    position: relative;
+
+    // visual
+    background-image: url("./img/header-bg-sm.jpg");
     background-size: cover;
+    background-repeat: no-repeat;
 
     &__mock {
+        // positioning
         position: absolute;
-        bottom: 34px;
-        @include centerer-x;
+        left: 50%;
+        bottom: 0;
+        font-size: 0;
+        transform: translateX(-50%);
+
+        img  {
+            // box model
+            width: 100%;
+        }
     }
 }
