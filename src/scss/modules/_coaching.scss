@@ -1,0 +1,74 @@
+.coaching {
+    // box model
+    padding: 50px 25px;
+    padding-right: 0;
+
+    
+    
+    &__board {
+        // box model
+        padding: 0 25px;
+        // visual
+        border: 1px solid $accent;
+        border-left: none;
+        border-right: none;
+    }
+
+    &__header {
+        // box model
+        margin: 45px 0;
+        padding: 0;
+    }
+
+    &__title {
+        // box model
+        margin: 0;
+        padding: 0;
+
+        // visual
+
+        // typography
+        color: $black;
+        font-size: 1.5rem;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        line-height: 1.5;
+    }
+
+    &__list {
+        // box model
+        margin: 0;
+        padding: 0;
+
+        // visual
+        list-style: none;
+    }
+
+    &__principles-title {
+        // box model
+        margin: 0;
+        padding: 0;
+        margin-bottom: 45px;
+
+        // visual
+        
+
+        // typography
+        font-size: 0.875rem;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        font-weight: 600;
+    }
+
+    &__principles-text {
+        // box model
+        margin: 0;
+        padding: 0;
+        margin-bottom: 45px;
+        
+    }
+    &__button {
+        // box model
+        margin-bottom: 35px;
+    }
+}

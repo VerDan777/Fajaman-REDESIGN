@@ -1,7 +1,8 @@
 .button {
     // box model
+    display: inline-block;
+    vertical-align: top;
     padding: 15px 40px;
-    text-align: center;
 
     // visual
     background-color: $accent;
@@ -19,13 +20,36 @@
 
         // visual
         transition: 0.3s ease-in-out;
-        
+
         &:hover {
             // visual
             background-color: $white;
             
             // typography
             color: $accent;
+        }
+    }
+
+    &--coaching {
+        // box model
+        padding: 15px 20px;
+
+
+        // visual
+        // font-family: 
+        background-color: rgba($white, 0.3);
+        border: 2px solid $accent;
+        transition: 0.3s ease-in-out;
+
+        // typography
+        color: $black;
+
+        &:hover {
+            // visual
+            background-color: $accent;
+
+            // typography
+            color: $white;
         }
     }
 }
